@@ -20,42 +20,20 @@
     align-items: center;
 }
 
-@media (max-width: 670px) {
-    iframe {
-        height: 240px;
-        width: 426px;
-    }
+.video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
 }
 
-@media (min-width:670px) and (max-width: 900px) {
-    iframe {
-        height: 360px;
-        width: 640px;
-    }
+.video-container iframe,  
+.video-container object,  
+.video-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
-
-@media (min-width:900px) {
-    iframe {
-        height: 480px;
-        width: 854px;
-    }
-}
-/* --skinny240-mode-player-width: 426px;
-    --skinny240-mode-player-height: 240px;
-    --skinny360-mode-player-width: 640px;
-    --skinny360-mode-player-height: 360px;
-    --skinny480-mode-player-width: 854px;
-    --skinny480-mode-player-height: 480px;
-    --flex1280-mode-player-width: 1280px;
-    --flex1280-mode-player-height: 720px;
-    --flex1280-mode-player-height-neg: -720px;
-    --flex1280-mode-full-width: 1706px;
-    --flex854-mode-player-width: 854px;
-    --flex854-mode-player-height: 480px;
-    --flex854-mode-player-height-neg: -480px;
-    --flex854-mode-full-width: 1280px;
-    --flex640-mode-player-width: 640px;
-    --flex640-mode-player-height: 360px;
-    --flex640-mode-player-height-neg: -360px;
-    --flex640-mode-full-width: 1066px;
-    --watch-sidebar-width: 426px; */
