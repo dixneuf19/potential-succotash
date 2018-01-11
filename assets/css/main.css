@@ -2643,7 +2643,7 @@
 		}
 
 		.wrapper.style1 {
-			background-color: tomato;
+			background: rgba(255, 82, 51, 0.9);
 			color: #ffffff;
 		}
 
@@ -3703,7 +3703,7 @@
 
 	#footer {
 		padding: 6em 0 4em 0 ;
-		background-color: coral;
+		background: rgba(255, 82, 51, 0.9);
 		text-align: center;
 	}
 
