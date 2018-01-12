@@ -1599,6 +1599,10 @@
 		text-align: center;
 	}
 
+	article p {
+		text-align: justify;
+	}
+
 	header p {
 		color: rgba(255, 255, 255, 0.5);
 		position: relative;
