@@ -42,3 +42,7 @@
 	max-width: 300px;
 	padding-bottom: 2em;
 }
+
+article .wrapper.style5 h2 {
+	color: rgb(255, 82, 51);
+}
