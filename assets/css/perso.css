@@ -1,8 +1,15 @@
+
 .alt .content {
     font-size: 0.8em;
     flex: 1 1 auto;
     max-width: none;
     
+}
+
+@media screen and (max-width: 980px) {
+.alt .content p {
+	font-size: 1.1em;
+}
 }
 
 
@@ -107,6 +114,11 @@ article .wrapper.style5 h2 {
   color: coral;;
   letter-spacing: 1px;
   padding-bottom: 1em;
+}
+
+#contact .snip1559 .phone {
+	font-weight: 700;
+	font-size: 1.2em;
 }
 
 #contact .snip1559 .icons i {
