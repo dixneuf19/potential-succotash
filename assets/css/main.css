@@ -3166,7 +3166,7 @@
 		-ms-transition: -ms-transform 0.5s ease;
 		transition: transform 0.5s ease;
 		-webkit-overflow-scrolling: touch;
-		background: #ff5233;
+		background: rgb(255, 82, 51);
 		color: #ffffff;
 		height: 100%;
 		max-width: 80%;
@@ -3284,15 +3284,22 @@
 
 			#header h1 a {
 				border: 0;
-				display: block;
+				display: inline-block;
 				height: inherit;
 				line-height: inherit;
+				padding: 0 1.5em 0 0;	
 			}
 
 				@media screen and (max-width: 736px) {
 
 					#header h1 a {
 						font-size: 0.8em;
+					}
+				}
+
+				@media screen and (max-width: 500px) {
+					#header h1 .disappear {
+						display: none;
 					}
 
 				}
