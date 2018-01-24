@@ -136,3 +136,7 @@ article .wrapper.style5 h2 {
   text-decoration: none;
 }
 
+.mail {
+	font-size: 1.6em;
+	font-family: Courier, monospace !important;
+}
