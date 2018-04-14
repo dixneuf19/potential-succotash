@@ -3,7 +3,10 @@
 Primary style
 
 -------------------------------- */
-
+.cd-timeline .header {
+  text-align: center;
+  font-size: 2em;
+}
 
 /* -------------------------------- 
 
@@ -21,31 +24,18 @@ Patterns - reusable parts of our design
 Resource style 
 
 -------------------------------- */
-.cd-timeline header {
-  height: 200px;
-  line-height: 200px;
-  text-align: center;
-  background: #303e49;
+
+
+.cd-timeline h3 {
+  color: black;
 }
 
-.cd-timeline header h1 {
-  color: white;
-  font-size: 1.8rem;
-}
-
-@media only screen and (min-width: 1170px) {
-  .cd-timeline header {
-    height: 300px;
-    line-height: 300px;
-  }
-  .cd-timeline header h1 {
-    font-size: 2.4rem;
-  }
+.cd-timeline p {
+  color: grey;
 }
 
 .cd-timeline {
   overflow: hidden;
-  margin: 2em auto;
 }
 
 .cd-timeline__container {
@@ -68,10 +58,7 @@ Resource style
 }
 
 @media only screen and (min-width: 1170px) {
-  .cd-timeline {
-    margin-top: 3em;
-    margin-bottom: 3em;
-  }
+
   .cd-timeline__container::before {
     left: 50%;
     margin-left: -2px;
@@ -225,12 +212,12 @@ Resource style
 .cd-timeline__content p,
 .cd-timeline__read-more,
 .cd-timeline__date {
-  font-size: 1.3rem;
+  font-size: 1em;
 }
 
 .cd-timeline__content p {
   margin: 1em 0;
-  line-height: 1.6;
+  line-height: 1;
 }
 
 .cd-timeline__read-more,
@@ -258,14 +245,14 @@ Resource style
 
 @media only screen and (min-width: 768px) {
   .cd-timeline__content h2 {
-    font-size: 2rem;
+    font-size: 1em;
   }
   .cd-timeline__content p {
-    font-size: 1.6rem;
+    font-size: 1em;
   }
   .cd-timeline__read-more,
   .cd-timeline__date {
-    font-size: 1.4rem;
+    font-size: 1em;
   }
 }
 
