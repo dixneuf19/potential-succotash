@@ -8,6 +8,10 @@ Primary style
   font-size: 2em;
 }
 
+.timeline {
+  padding-top: 25px;
+}
+
 /* -------------------------------- 
 
 Patterns - reusable parts of our design
@@ -179,7 +183,7 @@ Resource style
 .cd-timeline__content {
   position: relative;
   margin-left: 60px;
-  background: white;
+  background: rgba(255, 255, 255, 0.925);
   border-radius: 0.25em;
   padding: 1em;
   -webkit-box-shadow: 0 3px 0 #d7e4ed;
@@ -210,9 +214,9 @@ Resource style
 }
 
 .cd-timeline__content p,
-.cd-timeline__read-more,
 .cd-timeline__date {
   font-size: 1em;
+  color: gray;
 }
 
 .cd-timeline__content p {
@@ -220,22 +224,15 @@ Resource style
   line-height: 1;
 }
 
-.cd-timeline__read-more,
 .cd-timeline__date {
   display: inline-block;
 }
 
 .cd-timeline__read-more {
   float: right;
-  padding: .8em 1em;
-  background: #acb7c0;
-  color: white;
-  border-radius: 0.25em;
+  font-size: 0.7em;
 }
 
-.cd-timeline__read-more:hover {
-  background-color: #bac4cb;
-}
 
 .cd-timeline__date {
   float: left;
@@ -250,7 +247,9 @@ Resource style
   .cd-timeline__content p {
     font-size: 1em;
   }
-  .cd-timeline__read-more,
+  .cd-timeline__read-more {
+    font-size: 0.6em;
+  }
   .cd-timeline__date {
     font-size: 1em;
   }
@@ -276,6 +275,7 @@ Resource style
   }
   .cd-timeline__date {
     position: absolute;
+    color: white;
     width: 100%;
     left: 122%;
     top: 6px;
