@@ -9,28 +9,33 @@
 
 <url>
   <loc>http://www.loudnaround.org/</loc>
-  <lastmod>2018-04-10T11:35:25+00:00</lastmod>
+  <lastmod>2018-06-05T11:35:25+00:00</lastmod>
+  <changefreq>weekly</changefreq>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>http://www.loudnaround.org/index.html</loc>
-  <lastmod>2018-04-10T11:35:25+00:00</lastmod>
-  <priority>0.80</priority>
+  <lastmod>2018-06-05T11:35:25+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.5</priority>
 </url>
 <url>
   <loc>http://www.loudnaround.org/projet.html</loc>
-  <lastmod>2018-04-10T11:35:25+00:00</lastmod>
-  <priority>0.80</priority>
+  <lastmod>2018-06-05T11:35:25+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.60</priority>
 </url>
 <url>
   <loc>http://www.loudnaround.org/prestations.html</loc>
-  <lastmod>2018-04-10T11:35:25+00:00</lastmod>
-  <priority>0.80</priority>
+  <lastmod>2018-06-05T11:35:25+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.90</priority>
 </url>
 <url>
   <loc>http://www.loudnaround.org/contact.html</loc>
-  <lastmod>2018-04-10T11:35:25+00:00</lastmod>
-  <priority>0.80</priority>
+  <lastmod>2018-06-05T11:35:25+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.70</priority>
 </url>
 
 
