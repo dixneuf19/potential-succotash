@@ -68,6 +68,7 @@ div.team > figure {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  overflow: auto;
   opacity: 0;
   padding: 0 30px;
 }
