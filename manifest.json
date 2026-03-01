@@ -1,0 +1,17 @@
+{
+  "name": "Loud'N Around",
+  "short_name": "LNA",
+  "description": "Fanfare parisienne solidaire - Un tour du monde en musique avec Fanfare Sans Frontières",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#1c1d26",
+  "theme_color": "#1c1d26",
+  "lang": "fr",
+  "icons": [
+    {
+      "src": "assets/favicon.png",
+      "sizes": "any",
+      "type": "image/png"
+    }
+  ]
+}

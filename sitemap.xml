@@ -4,51 +4,42 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
 
 <url>
-  <loc>http://www.loudnaround.org/</loc>
-  <lastmod>2018-09-19T11:35:25+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <loc>https://www.loudnaround.org/</loc>
+  <lastmod>2026-03-01</lastmod>
+  <changefreq>yearly</changefreq>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://www.loudnaround.org/index.html</loc>
-  <lastmod>2018-09-19T11:35:25+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.5</priority>
-</url>
-<url>
-  <loc>http://www.loudnaround.org/projet.html</loc>
-  <lastmod>2018-09-19T11:35:25+00:00</lastmod>
+  <loc>https://www.loudnaround.org/projet.html</loc>
+  <lastmod>2026-03-01</lastmod>
   <changefreq>yearly</changefreq>
-  <priority>0.60</priority>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.loudnaround.org/ongs.html</loc>
-  <lastmod>2018-09-19T11:35:25+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.60</priority>
-</url>
-<url>
-  <loc>http://www.loudnaround.org/team.html</loc>
-  <lastmod>2018-09-19T11:35:25+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.60</priority>
-</url>
-<url>
-  <loc>http://www.loudnaround.org/prestations.html</loc>
-  <lastmod>2018-09-19T11:35:25+00:00</lastmod>
+  <loc>https://www.loudnaround.org/prestations.html</loc>
+  <lastmod>2026-03-01</lastmod>
   <changefreq>yearly</changefreq>
   <priority>0.90</priority>
 </url>
 <url>
-  <loc>http://www.loudnaround.org/contact.html</loc>
-  <lastmod>2018-09-19T11:35:25+00:00</lastmod>
+  <loc>https://www.loudnaround.org/ongs.html</loc>
+  <lastmod>2026-03-01</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>https://www.loudnaround.org/team.html</loc>
+  <lastmod>2026-03-01</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>https://www.loudnaround.org/contact.html</loc>
+  <lastmod>2026-03-01</lastmod>
   <changefreq>yearly</changefreq>
   <priority>0.70</priority>
 </url>
-
 
 </urlset>

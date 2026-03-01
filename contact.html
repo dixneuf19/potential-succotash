@@ -4,7 +4,7 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-<html>
+<html lang="fr">
 
 <head>
     <meta charset="utf-8" />
@@ -12,25 +12,27 @@
     <meta name="description" content="Loud'N Around (LNA) est une fanfare parisienne qui prépare un projet solidaire. N'hésitez pas à nous contacter pour plus d'informations ou pour toute animation musicale" />
     <meta name="keywords" content="Fanfare, solidaire, frontieres, musique, enfants, solidarité, voyage, contact, brass band" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114364562-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
+    <link rel="canonical" href="https://www.loudnaround.org/contact.html" />
 
-        gtag('config', 'UA-114364562-1');
-    </script>
+    <meta property="og:title" content="Fanfare LNA - Nous contacter" />
+    <meta property="og:description" content="Contactez Loud'N Around (LNA) pour toute animation musicale ou question sur notre projet solidaire." />
+    <meta property="og:url" content="https://www.loudnaround.org/contact.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:image" content="https://www.loudnaround.org/images/LNA_carre_transparent.png" />
+    <meta property="og:site_name" content="Loud'N Around" />
 
-    <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-    <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-    <link rel="stylesheet" href="assets/css/perso.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic&display=swap" />
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="assets/css/main.min.css" />
+    <link rel="stylesheet" href="assets/css/perso.min.css" />
     <link rel="icon" href="assets/favicon.png">
+    <link rel="apple-touch-icon" href="assets/favicon.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#1c1d26">
 </head>
 
 <body>
@@ -50,7 +52,7 @@
             <nav id="nav">
                 <ul>
                     <li class="special">
-                        <a href="#menu" class="menuToggle">
+                        <a href="#menu" class="menuToggle" aria-label="Ouvrir le menu" aria-expanded="false">
                             <span>Menu</span>
                         </a>
                         <div id="menu">
@@ -85,19 +87,21 @@
                         </h1>
                         <p>Que vous soyez intéressés par notre projet, ou que vous vouliez nous engager pour une
                             animation,
-                            n'hésitez pas à nous contacter en envoyant un mail à
-                            <div class="email">
-                                <a class="icon fa-envelope mail" style="font-family: Courier New, Courier, monospace"
-                                    href="mailto:contact@loudnaround.org">
-                                    contact@loudnaround.org</a>
-                            </div>
-                        </p>
+                            n'hésitez pas à nous contacter en envoyant un mail à</p>
+                        <div class="email">
+                            <a class="icon fa-envelope mail" style="font-family: Courier New, Courier, monospace"
+                                href="mailto:contact@loudnaround.org">
+                                contact@loudnaround.org</a>
+                        </div>
                         <p>Vous pouvez également nous contacter directement par téléphone :</p>
                     </header>
                     <div id="contact">
                         <figure class="snip1559">
                             <div class="profile-image">
-                                <img src="./images/owain.jpg" alt="photo_owain" />
+                                <picture>
+                                <source srcset="images/owain.webp" type="image/webp">
+                                <img src="images/owain.jpg" alt="photo_owain" loading="lazy" />
+                            </picture>
                             </div>
                             <figcaption>
                                 <h3>Owain Biddulph</h3>
@@ -106,21 +110,24 @@
                                     venir l'animer
                                     !
                                 </p>
-                                <a href="tel:+33643979353">
-                                    <div class="icon fa-phone phone"> +33 6 43 97 93 53</div>
+                                <a href="tel:+33643979353" class="icon fa-phone" aria-label="Téléphone +33 6 43 97 93 53">
+                                    <span class="phone"> +33 6 43 97 93 53</span>
                                 </a>
                             </figcaption>
                         </figure>
                         <figure class="snip1559">
                             <div class="profile-image">
-                                <img src="./images/denis_noe.jpeg" alt="photo_francois" />
+                                <picture>
+                                <source srcset="images/denis_noe.webp" type="image/webp">
+                                <img src="images/denis_noe.jpeg" alt="Photo de François Martin" loading="lazy" />
+                            </picture>
                             </div>
                             <figcaption>
                                 <h3>François Martin</h3>
                                 <h5>Président</h5>
                                 <p>Pour toutes autres questions sur notre projet, n'hésitez pas à contacter François !</p>
-                                <a href="tel:+33630120423">
-                                    <div class="icon fa-phone phone"> +33 6 30 12 04 23</div>
+                                <a href="tel:+33630120423" class="icon fa-phone" aria-label="Téléphone +33 6 30 12 04 23">
+                                    <span class="phone"> +33 6 30 12 04 23</span>
                                 </a>
                             </figcaption>
                         </figure>
@@ -136,26 +143,27 @@
             </div>
             <ul class="icons">
                 <li>
-                    <a href="https://www.facebook.com/loudnaround/" class="icon fa-facebook">
+                    <a href="https://www.facebook.com/loudnaround/" class="icon fa-facebook" aria-label="Facebook LNA">
                         <span class="label">Facebook</span>
                         LNA
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.instagram.com/loudnaround/" class="icon fa-instagram">
+                    <a href="https://www.instagram.com/loudnaround/" class="icon fa-instagram" aria-label="Instagram @loudnaround">
                         <span class="label">Instagram</span>
                         @loudnaround
                     </a>
                 </li>
                 <li>
-                    <a href="mailto:contact@loudnaround.org" class="icon fa-envelope-o">
+                    <a href="mailto:contact@loudnaround.org" class="icon fa-envelope-o" aria-label="Email contact@loudnaround.org">
                         <span class="label">Email</span>
                         contact@loudnaround.org
                     </a>
                 </li>
                 <li>
-                    <a href="tel:+33643979353">
-                        <div class="icon fa-phone phone"> +33 6 43 97 93 53</div>
+                    <a href="tel:+33643979353" class="icon fa-phone" aria-label="Téléphone +33 6 43 97 93 53">
+                        <span class="label">Téléphone</span>
+                        +33 6 43 97 93 53
                     </a>
                 </li>
             </ul>
@@ -173,13 +181,12 @@
     </div>
 
     <!-- Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.scrollex.min.js"></script>
-    <script src="assets/js/jquery.scrolly.min.js"></script>
-    <script src="assets/js/skel.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-    <script src="assets/js/main.js"></script>
+    <script defer src="assets/js/jquery.min.js"></script>
+    <script defer src="assets/js/jquery.scrollex.min.js"></script>
+    <script defer src="assets/js/jquery.scrolly.min.js"></script>
+    <script defer src="assets/js/skel.min.js"></script>
+    <script defer src="assets/js/util.min.js"></script>
+    <script defer src="assets/js/main.min.js"></script>
 
 </body>
 
